@@ -6,7 +6,8 @@ using namespace std;
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    ll limit = 4000000;
+    ll limit;
+    cin>>limit;
     ll sum = 2;
     ll first = 1, second = 2;
     ll num  = first + second;
